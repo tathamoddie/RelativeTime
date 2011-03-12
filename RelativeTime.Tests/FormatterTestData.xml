@@ -21,7 +21,9 @@
   <test timeSpan="03:00:00" formattedValue="about 3 hours ago" />
   <test timeSpan="09:00:00" formattedValue="about 9 hours ago" />
   <test timeSpan="17:00:00" formattedValue="about 17 hours ago" />
-  <test timeSpan="18:00:00" formattedValue="yesterday" />
+  <test timeSpan="19:29:59" formattedValue="about 19 hours ago" />
+  <test timeSpan="19:30:00" formattedValue="yesterday" />
+  <test timeSpan="20:00:00" formattedValue="yesterday" />
   <test timeSpan="1.00:00:00" formattedValue="yesterday" />
   <test timeSpan="1.01:00:00" formattedValue="yesterday" />
   <test timeSpan="1.11:59:00" formattedValue="yesterday" />
@@ -30,5 +32,12 @@
   <test timeSpan="2.11:59:00" formattedValue="about 2 days ago" />
   <test timeSpan="2.12:00:00" formattedValue="about 3 days ago" />
   <test timeSpan="3.00:00:00" formattedValue="about 3 days ago" />
+  <test timeSpan="5.11:59:00" formattedValue="about 5 days ago" />
+  <test timeSpan="5.12:00:00" formattedValue="about 6 days ago" />
+  <test timeSpan="5.23:59:00" formattedValue="about 6 days ago" />
+  <test timeSpan="6.00:00:00" formattedValue="last week" />
+  <test timeSpan="12.23:59:00" formattedValue="last week" />
+  <test timeSpan="13.00:00:00" formattedValue="about 2 weeks ago" />
+  <test timeSpan="14.00:00:00" formattedValue="about 2 weeks ago" />
   <test timeSpan="740.00:00:00" formattedValue="about 2 years ago" />
 </tests>
