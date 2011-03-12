@@ -6,14 +6,15 @@
   <test timeSpan="00:00:30" formattedValue="less than a minute ago" />
   <test timeSpan="00:01:00" formattedValue="about a minute ago" />
   <test timeSpan="00:01:10" formattedValue="about a minute ago" />
-  <test timeSpan="00:01:30" formattedValue="about a minute ago" />
+  <test timeSpan="00:01:29" formattedValue="about a minute ago" />
+  <test timeSpan="00:01:30" formattedValue="about 2 minutes ago" />
   <test timeSpan="00:01:31" formattedValue="about 2 minutes ago" />
   <test timeSpan="00:10:00" formattedValue="about 10 minutes ago" />
   <test timeSpan="00:45:00" formattedValue="about 45 minutes ago" />
   <test timeSpan="00:47:30" formattedValue="about 48 minutes ago" />
   <test timeSpan="00:50:00" formattedValue="about an hour ago" />
   <test timeSpan="01:10:00" formattedValue="about an hour ago" />
-  <test timeSpan="01:29:00" formattedValue="about an hour ago" />
+  <test timeSpan="01:29:59" formattedValue="about an hour ago" />
   <test timeSpan="01:30:00" formattedValue="about 2 hours ago" />
   <test timeSpan="02:00:00" formattedValue="about 2 hours ago" />
   <test timeSpan="02:29:00" formattedValue="about 2 hours ago" />
@@ -22,7 +23,7 @@
   <test timeSpan="09:00:00" formattedValue="about 9 hours ago" />
   <test timeSpan="17:00:00" formattedValue="about 17 hours ago" />
   <test timeSpan="19:29:59" formattedValue="about 19 hours ago" />
-  <test timeSpan="19:30:00" formattedValue="yesterday" />
+  <test timeSpan="19:30:00" formattedValue="about 20 hours ago" />
   <test timeSpan="20:00:00" formattedValue="yesterday" />
   <test timeSpan="1.00:00:00" formattedValue="yesterday" />
   <test timeSpan="1.01:00:00" formattedValue="yesterday" />
@@ -39,5 +40,17 @@
   <test timeSpan="12.23:59:00" formattedValue="last week" />
   <test timeSpan="13.00:00:00" formattedValue="about 2 weeks ago" />
   <test timeSpan="14.00:00:00" formattedValue="about 2 weeks ago" />
+  <test timeSpan="29.23:59:59" formattedValue="about 4 weeks ago" />
+  <test timeSpan="30.00:00:00" formattedValue="about a month ago" />
+  <test timeSpan="59.23:59:59" formattedValue="about a month ago" />
+  <test timeSpan="60.00:00:00" formattedValue="about 2 months ago" />
+  <test timeSpan="74.23:59:59" formattedValue="about 2 months ago" />
+  <test timeSpan="75.00:00:00" formattedValue="about 3 months ago" />
+  <test timeSpan="90.00:00:00" formattedValue="about 3 months ago" />
+  <test timeSpan="344.23:59:59" formattedValue="about 11 months ago" />
+  <test timeSpan="345.00:00:00" formattedValue="about a year ago" />
+  <test timeSpan="547.11:59:59" formattedValue="about a year ago" />
+  <test timeSpan="547.12:00:00" formattedValue="about 2 years ago" />
+  <test timeSpan="549.00:00:00" formattedValue="about 2 years ago" />
   <test timeSpan="740.00:00:00" formattedValue="about 2 years ago" />
 </tests>

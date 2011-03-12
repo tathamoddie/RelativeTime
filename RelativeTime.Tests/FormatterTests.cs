@@ -18,7 +18,7 @@ namespace RelativeTime.Tests
 
             var actual = new Formatter().Format(timeSpan);
 
-            Assert.AreEqual(formattedValue, actual);
+            Assert.AreEqual(formattedValue, actual, "input: " + timeSpan);
         }
     }
 }
