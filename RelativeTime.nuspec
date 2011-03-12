@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>relativetime</id>
+    <version>1.0.0</version>
+    <authors>Tatham Oddie</authors>
+    <description>Render a TimeSpan object as something that's consumable by humans like "about 9 minutes ago" or "yesterday".</description>
+    <language>en-US</language>
+    <projectUrl>http://relativetime.codeplex.com/</projectUrl>
+    <licenseUrl>http://relativetime.codeplex.com/license</licenseUrl>
+  </metadata>
+  <files>
+    <file src="RelativeTime\bin\Release\*.dll" target="lib" />
+    <file src="RelativeTime\bin\Release\*.pdb" target="lib" />
+  </files>
+</package>
