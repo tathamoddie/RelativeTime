@@ -22,7 +22,7 @@ namespace RelativeTime
             },
             {
                 TimeSpan.FromMinutes(1.5),
-                t => string.Format("about {0} minutes ago", Math.Round(t.TotalMinutes, 0, MidpointRounding.AwayFromZero))
+                t => string.Format("about {0} minutes ago", Math.Round(t.TotalMinutes, 0))
             },
             {
                 TimeSpan.FromMinutes(50),
@@ -30,7 +30,7 @@ namespace RelativeTime
             },
             {
                 TimeSpan.FromHours(1.5),
-                t => string.Format("about {0} hours ago", Math.Round(t.TotalHours, 0, MidpointRounding.AwayFromZero))
+                t => string.Format("about {0} hours ago", Math.Round(t.TotalHours, 0))
             },
             {
                 TimeSpan.FromHours(20),
@@ -38,7 +38,7 @@ namespace RelativeTime
             },
             {
                 TimeSpan.FromDays(1.5),
-                t => string.Format("about {0} days ago", Math.Round(t.TotalDays, 0, MidpointRounding.AwayFromZero))
+                t => string.Format("about {0} days ago", Math.Round(t.TotalDays, 0))
             },
             {
                 TimeSpan.FromDays(6),
@@ -46,7 +46,7 @@ namespace RelativeTime
             },
             {
                 TimeSpan.FromDays(13),
-                t => string.Format("about {0} weeks ago", Math.Round(t.TotalDays / 7, 0, MidpointRounding.AwayFromZero))
+                t => string.Format("about {0} weeks ago", Math.Round(t.TotalDays / 7, 0))
             },
             {
                 TimeSpan.FromDays(30),
@@ -54,7 +54,7 @@ namespace RelativeTime
             },
             {
                 TimeSpan.FromDays(60),
-                t => string.Format("about {0} months ago", Math.Round(t.TotalDays / 30, 0, MidpointRounding.AwayFromZero))
+                t => string.Format("about {0} months ago", Math.Round(t.TotalDays / 30, 0))
             },
             {
                 TimeSpan.FromDays(345),
@@ -62,7 +62,7 @@ namespace RelativeTime
             },
             {
                 TimeSpan.FromDays(547.5),
-                t => string.Format("about {0} years ago", Math.Round(t.TotalDays / 365, 0, MidpointRounding.AwayFromZero))
+                t => string.Format("about {0} years ago", Math.Round(t.TotalDays / 365, 0))
             }
         };
 
