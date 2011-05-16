@@ -10,7 +10,9 @@
     <licenseUrl>http://relativetime.codeplex.com/license</licenseUrl>
   </metadata>
   <files>
-    <file src="RelativeTime\bin\Release\*.dll" target="lib" />
-    <file src="RelativeTime\bin\Release\*.pdb" target="lib" />
+    <file src="RelativeTime\bin\Release\*.dll" target="lib\NET40" />
+    <file src="RelativeTime\bin\Release\*.pdb" target="lib\NET40" />
+    <file src="RelativeTime.Silverlight3\bin\Release\*.dll" target="lib\SL3" />
+    <file src="RelativeTime.Silverlight3\bin\Release\*.pdb" target="lib\SL3" />
   </files>
 </package>
