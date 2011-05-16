@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>relativetime</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <authors>Tatham Oddie</authors>
     <description>Render a TimeSpan object as something that's consumable by humans like "about 9 minutes ago" or "yesterday".</description>
     <language>en-US</language>
